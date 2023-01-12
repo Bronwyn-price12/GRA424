@@ -1,0 +1,18 @@
+h1 {
+    font-size: 20pt;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+h2 {
+    font-size: 14pt;
+    margin-left: 5rem;
+}
+ul {
+    list-style: none;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+body {
+    background: rgb(228, 228, 228);
+}

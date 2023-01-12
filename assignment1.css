@@ -1,6 +1,6 @@
 .square {
     display: flex;
-    background: #000;
+    background: rgb(255, 255, 255);
     width: 71.428571vw;
     height: 71.428571vh;
     margin: auto;
@@ -9,6 +9,7 @@
 .middle {
     display: flex;
     background: rgb(255, 255, 255);
+    border-style: solid;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
@@ -24,7 +25,7 @@
 
 .page {
     display: flex;
-    background: rgb(255, 255, 255);
+    background: rgb(228, 228, 228);
     width: 100vw;
     height: 100vh;
     margin: auto;

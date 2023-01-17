@@ -53,20 +53,18 @@
 
 .subtraction-square {
     display: flex;
-    width: 14.285714vw;
-    height: 14.285714vh;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    top: -28.17384281vh;
-    background: blue;
-}
+    position: absolute;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin-left: 14.285714vw;
+    margin-top: 14.285714vh;
 
+    clip-path: inset (14.285714vh 14.285714vw 14.285714vh 14.285714vw );
+}
 
 .bottom {
     z-index: 1;
     transform: rotate(290deg);
-    clip: rect(0%, 60%, 500%, 0%);
     background-color: rgb(255, 255, 255);
     width: 3vw;
     height: 29.75vh;

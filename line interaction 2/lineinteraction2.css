@@ -51,6 +51,16 @@
 
 }
 
+.subtraction-square {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: -28.17384281vh;
+    background: blue;
+}
 
 
 .bottom {

@@ -51,38 +51,34 @@
 
 }
 
-.subtraction-square {
+.white {
     display: flex;
-    position: absolute;
     width: 42.857143vw;
     height: 42.857143vh;
+    margin: auto;
+    position: absolute;
     margin-left: 14.285714vw;
     margin-top: 14.285714vh;
 
-    clip-path: inset (14.285714vh 14.285714vw 14.285714vh 14.285714vw );
+    clip-path: inset(14.285714vh 14.285714vw 14.285714vh 14.285714vw);
 }
 
-.bottom {
-    z-index: 1;
-    transform: rotate(290deg);
-    background-color: rgb(255, 255, 255);
-    width: 3vw;
-    height: 29.75vh;
-    position: absolute;
-    left: 48%;
-    top: 35%;
+.whiteline {
+    display: flex;
+    background: #000;
+    height: 42.857143vh;
+    margin: 0px 1.21vw 0px 1.21vw;
+    width: 1.25vw;
+    background: rgb(255, 255, 255);
+
+    rotate: 150deg;
 }
 
-.top {
-    z-index: 1;
-    transform: rotate(290deg);
-    background-color: rgb(255, 255, 255);
-    width: 2vw;
-    height: 29.75vh;
-    position: absolute;
-    left: 48.75%;
-    top: 25%;
+#lineleftwhite {
+    margin-left: 2.5vw;
 }
+
+
 
 
 /*

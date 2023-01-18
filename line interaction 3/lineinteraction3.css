@@ -51,68 +51,82 @@
 
 }
 
-
-.top {
-    z-index: 1;
-    transform: rotate(290deg);
-    background-color: rgb(255, 255, 255);
-    width: 2vw;
-    height: 29.75vh;
+.white {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
     position: absolute;
-    left: 48.75%;
-    top: 25%;
+    margin-left: 14.285714vw;
+    margin-top: 14.285714vh;
+
+    clip-path: inset(14.285714vh 14.285714vw 14.285714vh 14.285714vw);
 }
 
-.bottom {
-    z-index: 1;
-    transform: rotate(290deg);
-    clip: rect(0%, 60%, 500%, 0%);
-    background-color: rgb(255, 255, 255);
-    width: 3vw;
-    height: 29.75vh;
-    position: absolute;
-    left: 48%;
-    top: 35%;
+.whiteline {
+    display: flex;
+    background: #000;
+    height: 42.857143vh;
+    margin: 0px 1.21vw 0px 1.21vw;
+    width: 1.25vw;
+    background: rgb(255, 255, 255);
+
+    rotate: 150deg;
 }
 
-.thintop {
-    z-index: 1;
-    transform: rotate(425deg);
-    background-color: rgb(0, 0, 0);
-    width: 1vw;
-    height: 81vh;
+.black {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
     position: absolute;
-    left: 49.6%;
-    top: 5%;
+    margin-left: 14.285714vw;
+    margin-top: -14.285714vh;
+
+    clip-path: inset(28.571428vh 0vw -28.571428vh 0vw );
 }
 
-.thickmiddle {
-    z-index: 1;
-    transform: rotate(425deg);
-    background-color: rgb(0, 0, 0);
-    width: 3vw;
-    height: 86vh;
-    position: absolute;
-    left: 48.75%;
-    top: 8%;
+.blackline {
+    display: flex;
+    background: black;
+    height: 100vh;
+    width: 2.5vw;
+    margin: auto;
+
+    rotate: -150deg;
 }
 
-.thinmiddle {
-    z-index: 1;
-    transform: rotate(425deg);
-    background-color: rgb(0, 0, 0);
-    width: 1vw;
-    height: 79vh;
-    position: absolute;
-    left: 52%;
-    top: 15%;
+#lineleftwhite {
+    margin-left: 2.5vw;
 }
 
+#lineleftblack {
+    margin-left: 0vw;
+}
+
+#linerightblack {
+    margin-right: 0vw;
+}
+
+
+
+
+/*
+.img1 {
+    display: flex;
+    margin: auto;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    border: 1px solid black;
+    object-fit: fill;
+    margin-bottom: 5vw;
+}
+*/
 
 body {
     background: rgb(228, 228, 228);
     margin: auto;
-} 
+}
 
 
 
